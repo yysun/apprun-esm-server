@@ -1,0 +1,22 @@
+{
+  "name": "apprun-esm-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -p . -w",
+    "serv": "npx esm-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apprun": "^2.26.1"
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
